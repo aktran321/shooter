@@ -191,6 +191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   enemyAnimator: {fileID: 692822636}
+  damage: 20
 --- !u!54 &470665190
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -217,10 +218,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1
-  m_Height: 2.5
+  m_Radius: 0.6
+  m_Height: 1
   m_Direction: 1
-  m_Center: {x: 0, y: 2, z: 0}
+  m_Center: {x: 0, y: 3.3, z: 0}
 --- !u!95 &692822636 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 7544459490567584518, guid: e75ad5b2b3cd9f74a8288335fb2224f7,
@@ -758,6 +759,19 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   jumpHeight: 2
+--- !u!114 &2092894204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092894200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d763b8ee9faedab499505d39c53842eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!1001 &2099010786
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ public class EnemyManager : MonoBehaviour
 {
     public GameObject player;
     public Animator enemyAnimator;
+    public float damage = 20f;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +32,7 @@ public class EnemyManager : MonoBehaviour
     {
         if(collision.gameObject == player)
         {
-            Debug.Log("Player Hit!");
+            player.GetComponent<PlayerManager>().Hit(damage);
         }
     }
 }
