@@ -283,6 +283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4412547978966563746}
   - component: {fileID: 4924542356035537769}
+  - component: {fileID: 7433167851533325661}
   m_Layer: 0
   m_Name: FPS_Character
   m_TagString: Untagged
@@ -327,6 +328,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &7433167851533325661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623905268483656713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 407059ba60be0964695b320968ad1568, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  speed: 12
 --- !u!1 &2222698514141142468
 GameObject:
   m_ObjectHideFlags: 0
