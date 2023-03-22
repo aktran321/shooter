@@ -7,7 +7,7 @@ public class WeaponManager : MonoBehaviour
 {
     public GameObject playerCam;
     public float range = 100f;
-    public float damage = 25;
+    public float damage = 100;
     public Animator playerAnimator;
     // Start is called before the first frame update
     void Start()
